@@ -1,0 +1,6 @@
+version: '2'
+
+services:
+  npm-docker-compose:
+    build: .
+    image: framon/npm-docker-compose:0.1-8-jessie
